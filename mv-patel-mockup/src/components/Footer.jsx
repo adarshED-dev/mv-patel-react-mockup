@@ -5,16 +5,24 @@ function Footer() {
   return (
     <footer className='main-footer--parent bg-[#081B33]'>
         <div className="inner-footer--wrapper">
-            <div className="upper-footer footer-up">
-                <div className="footer-blocks-wrapper">
+            <div className="upper-footer footer-up p-[2rem]">
+                <div className="footer-blocks-wrapper flex justify-between">
                     <div className="website-info">
                         <img src={image} alt="footer-logo-alt" width="100px" height="auto" />
-                        <p className="website-desc-para">Curating the world's finest bath, tile and lighting brands for exceptional spaces.</p>
-                        <div className="social-icons">
-                            <li className="icons icon-instagram"></li>
-                            <li className="icons icon-facebook"></li>
-                            <li className="icons icon-pinterest"></li>
-                            <li className="icons icon-youtube"></li>
+                        <p className="website-desc-para">Curating the world's finest bath, tile and  <br />lighting brands for exceptional spaces.</p>
+                        <div className="social-icons flex w-full justify-left gap-[1rem] my-[10px]">
+                            <li className="icons icon-instagram list-none">
+                                <i class="fa-brands fa-instagram"></i>
+                            </li>
+                            <li className="icons icon-facebook list-none">
+                                <i class="fa-brands fa-facebook"></i>
+                            </li>
+                            <li className="icons icon-pinterest list-none">
+                                <i class="fa-brands fa-pinterest"></i>
+                            </li>
+                            <li className="icons icon-youtube list-none">
+                                <i class="fa-brands fa-youtube"></i>
+                            </li>
                         </div>
                     </div>
                     <div className="footer-menu">
@@ -80,10 +88,10 @@ function Footer() {
                 </div>
             </div>
             <div className="lower-footer footer-down px-[5rem] py-[10px] flex justify-between">
-                <div className="copyright-text">©2026 MV patel & Co. All Right Reserved</div>
+                <div className="copyright-text text-[#fff] uppercase text-[14px] tracking-[0.6px]">©2026 MV patel & Co. All Right Reserved</div>
                 <div className="footer-policies flex gap-[10px]">
-                    <li className="privacy-policy policy-text list-none">Privacy Policy</li>
-                    <li className="terms-condition policy-text list-none">Terms & Condition</li>
+                    <li className="privacy-policy policy-text list-none text-[#fff] uppercase text-[14px]">Privacy Policy</li>
+                    <li className="terms-condition policy-text list-none text-[#fff] uppercase text-[14px]">Terms & Condition</li>
                 </div>
             </div>
         </div>

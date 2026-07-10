@@ -26,8 +26,14 @@
     padding-left: 0;
     color: white;
     background-color: transparent;
-    border: none;
-}
+    border: none;}
+
+p,
+li,
+div,
+a,
+span{
+    color: white;}
 
 h1{
     color: white;
@@ -58,4 +64,8 @@ input.search{
 
 .card-li.multiple-image-single{
     border-right: 1px solid rgba(255, 255, 255, 0.377);
+}
+
+.lower-footer.footer-down{
+    border-top: 1px solid rgba(255, 255, 255, 0.377);
 }

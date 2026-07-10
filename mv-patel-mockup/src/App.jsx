@@ -2,7 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
-import './assets/main.css' 
+import './assets/main.css'
 
 // Components 
 import StickyHeader from './components/StickyHeader'
