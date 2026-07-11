@@ -1,8 +1,15 @@
 @import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+@font-face{
+    src:url(./fonts/acuminPro.ttf);
+    font-family: acuminPro;
+    font-display: swap;
+}
+
 :root{
-    --body-font: "Montserrat", sans-serif;
+    --light-font: acuminPro;
+    --body-font: acuminPro, sans-serif;
 }
 
 *{
@@ -31,7 +38,6 @@
 p,
 li,
 div,
-a,
 span{
     color: white;}
 
@@ -55,9 +61,6 @@ h1{
 input.search{
     border-bottom: 1px solid white;
 }
-
-/* .para-lists:first-child{
-    list-style-type: none;} */
 
 .image-card--grid{
     grid-template-columns: repeat(8, 1fr);}

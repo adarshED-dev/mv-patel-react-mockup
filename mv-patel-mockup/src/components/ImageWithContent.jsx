@@ -1,8 +1,8 @@
 // imagePosition
 
-function ImageWithContent({heading, icon, imageSrc, imagePosition}){
+function ImageWithContent({heading, collectionLink, icon, imageSrc, imagePosition}){
     return (
-        <section className="main-image-widthContent">
+        <section className="main-image-widthContent bg-[#081B33]">
             <div className={`inner-wrapper-main w-full flex justify-between ${imagePosition === "left" ? "flex-row-reverse" : ""}`}>
                 <div className="block-content--parent flex items-center w-[50%] bg-[#081B33]">
                     <div className="richtext-content-main w-[80%] mx-auto">
@@ -11,7 +11,9 @@ function ImageWithContent({heading, icon, imageSrc, imagePosition}){
                         </div>
                         <h2 className="content-heading-main text-[#fff] text-[40px] uppercase text-[300] mb-[20px]">{ heading }</h2>
                         <button className="button transparet-button button--content uppercase tracking-[2px]">
-                            Explore Brands →
+                            <a href={collectionLink}>
+                                Explore Brands →
+                            </a>
                         </button>
                     </div>
                 </div>
