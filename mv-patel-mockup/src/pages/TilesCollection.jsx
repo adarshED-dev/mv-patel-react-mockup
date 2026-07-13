@@ -9,6 +9,11 @@ import Icons from '../components/Icons'
 import Map from '../components/Map'
 
 
+import cateTilesProduct  from  '../assets/categoryImage/cat-tilesproducts.png'
+
+
+
+
 const BannerData = {
   heading: "Luxury for Every Details",
   subHeading: "Premium Selections",
@@ -19,19 +24,19 @@ const BannerData = {
 const categoryData = [
   {
     cardHeading: "Matte Finish",
-    cardImage: ""
+    cardImage: cateTilesProduct
   },
   {
     cardHeading: "Acrylic",
-    cardImage: ""
+    cardImage: cateTilesProduct
   },
   {
     cardHeading: "Marble Stone",
-    cardImage: ""
+    cardImage: cateTilesProduct
   },
   {
     cardHeading: "Wallpapers",
-    cardImage: ""
+    cardImage: cateTilesProduct
   }
 ]
 

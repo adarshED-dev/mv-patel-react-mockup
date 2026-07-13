@@ -8,6 +8,8 @@ import MultipleImageGrid from '../components/MultipleImageGrid'
 import Icons from '../components/Icons'
 import Map from '../components/Map'
 
+import cateOthers  from  '../assets/categoryImage/cat-others.png'
+
 
 const BannerData = {
   heading: "Luxury for Every Details",
@@ -18,20 +20,20 @@ const BannerData = {
 
 const categoryData = [
   {
-    cardHeading: "Matte Finish",
-    cardImage: ""
+    cardHeading: "Lights",
+    cardImage: cateOthers
   },
   {
-    cardHeading: "Acrylic",
-    cardImage: ""
+    cardHeading: "Water Tank",
+    cardImage: cateOthers
   },
   {
-    cardHeading: "Marble Stone",
-    cardImage: ""
+    cardHeading: "Sink",
+    cardImage: cateOthers
   },
   {
-    cardHeading: "Wallpapers",
-    cardImage: ""
+    cardHeading: "Fan",
+    cardImage: cateOthers
   }
 ]
 

@@ -1,23 +1,25 @@
-import video from '../assets/slideshow.mp4';
+import video from '../assets/slideshow1.mp4';
 
 
 function HeroBanner({overlayData}){
     return (
         <section className="banner-main main-banner w-full h-[100vh] overflow-hidden z-[9]">
             <div className="banner-video-wrapper w-full h-[100%] relative">
-                <video width="100%" height="100%" muted="true" autoplay="true" loop="true">
+                <video width="100%" height="100%" muted="true" autoplay="true" loop="true" className="w-[100%] h-[100%] object-cover">
                     <source src={video} type="video/mp4" />
                 </video>
                 <div className="overlay-content data-overlay--banner-main-content">
                     {overlayData.subheading ? (<p className="subheading-content uppercase">overlayData.subheading</p>):null}
-                    <h1 className="banner-overlay-heading uppercase mb-[20px]">{overlayData.heading}</h1>
-                    <ul className="para-overlay flex w-auto gap-[1rem] justify-center mb-[20px]">
+                    <h1 className="banner-overlay-heading uppercase">{overlayData.heading}</h1>
+                    <ul className="para-overlay flex w-auto items-center gap-[1rem] justify-center">
                         { overlayData.description ? (
-                                <p className="description-content overlay-content">{overlayData.description}</p>
+                                <p className="description-content">{overlayData.description}</p>
                             ) : (
                                 <>
                                     <li className="para-lists uppercase">Curated Bath</li>
+                                    <div className="separator-round"></div>
                                     <li className="para-lists uppercase">Tiles</li>
+                                    <div className="separator-round"></div>
                                     <li className="para-lists uppercase">Lightings</li>
                                 </>
                             )

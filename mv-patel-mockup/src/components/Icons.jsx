@@ -7,7 +7,7 @@ function Icons({iconsData}) {
     <main className="main--icons-section p-[20px] bg-[#041120]">
         <div className="inner-section--wrapper">
             <div className="heading-block">
-                <h2 className="icons-sect--heading">Why Choose Us</h2>
+                <h2 className="icons-sect--heading uppercase font-semibold">Why Choose Us</h2>
             </div>
             <div className="icon-section--wrapper main-grabber flex w-80%] justify-evenly m-auto p-[20px]">
                 {iconsData.map((icons)=>(
