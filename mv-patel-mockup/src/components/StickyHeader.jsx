@@ -31,7 +31,9 @@ function StickyHeader(){
                 </div>
                 <div className="header-logo w-[32%] flex justify-center">
                     <div className="image-wrapper">
-                        <img src={logo} alt="mv-patel-logo" width="200px" height="auto" />
+                        <a href="/">
+                            <img src={logo} alt="mv-patel-logo" width="200px" height="auto" />
+                        </a>
                     </div>
                 </div>
                 <div className="header-search w-[32%]">

@@ -6,6 +6,8 @@ import OutletCards from '../components/OutletCards'
 import Footer from '../components/Footer'
 
 
+import outletPlaceholder from '../assets/outlets/outlet-placeholder.jpg'
+
 
 const BannerData = {
   heading: "Visit our outlets",
@@ -16,7 +18,7 @@ const BannerData = {
 
 const outletData = [
   {
-    image: "",
+    image: outletPlaceholder,
     count: "01",
     heading: "Vijay Nagar",
     description: "123, ABC Road, Vijay Nagar, Indore, Madhya Pradesh 452010",
@@ -26,7 +28,7 @@ const outletData = [
     buttonURL: "/direction"
   },
   {
-    image: "",
+    image: outletPlaceholder,
     count: "02",
     heading: "Palasia",
     description: "123, ABC Road, Palasia, Indore, Madhya Pradesh 452010",
@@ -36,7 +38,7 @@ const outletData = [
     buttonURL: "/direction"
   },
   {
-    image: "",
+    image: outletPlaceholder,
     count: "03",
     heading: "Bhawar Kua",
     description: "142/3 Bhawarkua, Indore, Madhya Pradesh 452010",
@@ -46,7 +48,7 @@ const outletData = [
     buttonURL: "/direction"
   },
   {
-    image: "",
+    image: outletPlaceholder,
     count: "04",
     heading: "Malhar Ganj",
     description: "12, ABC Road, Malhar Ganj, Indore, Madhya Pradesh 452010",

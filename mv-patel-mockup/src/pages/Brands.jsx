@@ -4,11 +4,13 @@ import StickyHeader from '../components/StickyHeader'
 import HeroBanner from '../components/HeroBanner'
 import Multicolumn from '../components/Multicolumn'
 import Footer from '../components/Footer'
+import brandPlaceHolderImage from '../assets/brands/brand-bg-placeholder.png'
+import brandLogoPlaceholder from '../assets/brands/brand-logo.png'
 
 const multicolumnDetails = [
     {
-        image: "",
-        logoImage: "",
+        image: brandPlaceHolderImage,
+        logoImage: brandLogoPlaceholder,
         subtext: "Bath",
         description: "Italian luxury and innovation for exclusive bathroom experiences.",
         buttonText1: "Visit Store",
@@ -17,8 +19,8 @@ const multicolumnDetails = [
         buttonURL2: "/catalogue"
     },
     {
-        image: "",
-        logoImage: "",
+        image: brandPlaceHolderImage,
+        logoImage: brandLogoPlaceholder,
         subtext: "Bath",
         description: "Italian luxury and innovation for exclusive bathroom experiences.",
         buttonText1: "Visit Store",
@@ -27,8 +29,8 @@ const multicolumnDetails = [
         buttonURL2: "/catalogue"
     },
     {
-        image: "",
-        logoImage: "",
+        image: brandPlaceHolderImage,
+        logoImage: brandLogoPlaceholder,
         subtext: "Bath",
         description: "Italian luxury and innovation for exclusive bathroom experiences.",
         buttonText1: "Visit Store",
